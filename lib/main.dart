@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mohan_new/SingupPage.dart';
+import 'package:mohan_new/page_test.dart';
+
+import 'carrer_graph.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
               useMaterial3: true,
             ),
-            home: const SingupPage(),
+            home:   const CarrerGraph(),
           );
         }
     );
